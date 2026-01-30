@@ -55,6 +55,7 @@ const EmpCreate = () => {
                 onChange={e=>setPhone(e.target.value)}
                 />
                 <br />
+
                 <div className="radioAndLabel">
                 <input type="radio" name='gender' value="male" onChange={handleGenderChange}/>Male 
                 <input type="radio" name='gender' value="female" onChange={handleGenderChange}/>Female 
